@@ -1,9 +1,9 @@
 package lilterror11.lilscript;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import py4j.GatewayServer;
 
 public class LilScript implements ModInitializer {
 	public static final String MOD_ID = "lilscript";
@@ -20,5 +20,7 @@ public class LilScript implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		GatewayServer g = new GatewayServer();
+		g.start();
 	}
 }

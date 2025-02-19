@@ -18,6 +18,9 @@
 		"main": [
 			"lilterror11.lilscript.LilScript"
 		],
+		"client": [
+			"lilterror11.lilscript.client.LilScriptClient"
+		],
 		"fabric-datagen": [
 			"lilterror11.lilscript.LilScriptDataGenerator"
 		]
